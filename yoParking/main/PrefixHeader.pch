@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  yoParking
+//
+//  Created by zhanghangzhen on 16/3/17.
+//  Copyright © 2016年 zhanghangzhen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIImage+Extension.h"
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "ZHZTool.h"
+#import "DownData.h"
+#import "GCD+img.h"
+#import "MyControl.h"
+
+//#import <MapKit/MapKit.h>
+#import <AMapNaviKit/MAMapKit.h>
+#import <AMapNaviKit/AMapNaviKit.h>
+
+// 是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+// 导航栏标题的字体
+#define HMNavigationTitleFont [UIFont boldSystemFontOfSize:20]
+
+#define AMKEY @"4fb0cc587a308791908fe01e225d1ed3"
+
+#define WXKEY @"wxb1422a6653357e7e"
+
+#define WXAppSecret @"b13afeb775326bb0fed0d7149bdd548a"
+
+
+#define REQ_KEY @"e04cf3842479a116ac13727379557d58"
+#define REQ_KEY1 @"REQ_KEY1"
+#define MAP_RADIUS @"MAP_RADIUS"
+#define MAP_SIZE @"MAP_SIZE"
+#define TOKEN_INFO @"TOKEN_INFO"
+
+
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+#define user_phone @"userPhone"
+#define user_code @"userCode"
+#define user_id @"userId"
+#define user_car @"userCar"
+#define user_info @"userInfo"
+#define IS_LOGIN @"ISLOGIN"
+
+#define NOTIFITION_HEADERIMG @"headerImg"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
