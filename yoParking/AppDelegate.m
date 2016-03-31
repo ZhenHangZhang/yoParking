@@ -19,7 +19,8 @@
 #import "iflyMSC/IFlySetting.h"
 
  @interface AppDelegate ()<WXApiDelegate>
-
+{
+}
 @end
 
 @implementation AppDelegate
