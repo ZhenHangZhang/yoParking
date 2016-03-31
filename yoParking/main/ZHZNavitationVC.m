@@ -51,12 +51,12 @@
     
     // 设置文字属性
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[UITextAttributeTextColor] = [UIColor blackColor];
+    textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     // UITextAttributeFont  --> NSFontAttributeName(iOS7)
 #warning 过期 : 并不代表不能用, 仅仅是有最新的方案可以取代它
-    textAttrs[UITextAttributeFont] = HMNavigationTitleFont;
+    textAttrs[NSFontAttributeName] = HMNavigationTitleFont;
     // UIOffsetZero是结构体, 只要包装成NSValue对象, 才能放进字典\数组中
-    textAttrs[UITextAttributeTextShadowOffset] = [NSValue valueWithUIOffset:UIOffsetZero];
+//    textAttrs[UITextAttributeTextShadowOffset] = [NSValue valueWithUIOffset:UIOffsetZero];
     [appearance setTitleTextAttributes:textAttrs];
 }
 
@@ -70,20 +70,23 @@
     
     /**设置文字属性**/
     // 设置普通状态的文字属性
+    
+ 
+    
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[UITextAttributeTextColor] = [UIColor orangeColor];
-    textAttrs[UITextAttributeFont] = [UIFont systemFontOfSize:15];
-    textAttrs[UITextAttributeTextShadowOffset] = [NSValue valueWithUIOffset:UIOffsetZero];
+    textAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:15];
+//    textAttrs[NSBaselineOffsetAttributeName] = [NSValue valueWithUIOffset:UIOffsetZero];
     [appearance setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     
     // 设置高亮状态的文字属性
     NSMutableDictionary *highTextAttrs = [NSMutableDictionary dictionaryWithDictionary:textAttrs];
-    highTextAttrs[UITextAttributeTextColor] = [UIColor redColor];
+    highTextAttrs[NSForegroundColorAttributeName] = [UIColor redColor];
     [appearance setTitleTextAttributes:highTextAttrs forState:UIControlStateHighlighted];
     
     // 设置不可用状态(disable)的文字属性
     NSMutableDictionary *disableTextAttrs = [NSMutableDictionary dictionaryWithDictionary:textAttrs];
-    disableTextAttrs[UITextAttributeTextColor] = [UIColor lightGrayColor];
+    disableTextAttrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
     [appearance setTitleTextAttributes:disableTextAttrs forState:UIControlStateDisabled];
     
     /**设置背景**/
