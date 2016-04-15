@@ -224,14 +224,14 @@
      oglFlip             上下翻转效果
      rotate              左右旋转
      */
-    AppDelegate *apdele = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//    AppDelegate *apdele = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 
     CATransition * anima = [CATransition animation];
     [anima setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
     anima.duration = 0.8;
     anima.type = @"rippleEffect";
     anima.subtype = @"90ccw";
-    [apdele.mainNavigationController.view.layer addAnimation:anima forKey:nil];
+    [self.navigationController.view.layer addAnimation:anima forKey:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

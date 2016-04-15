@@ -235,6 +235,8 @@
 		924E1AED1CA28E6D0059BE05 /* ZHZParkAnnoationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E1AEC1CA28E6D0059BE05 /* ZHZParkAnnoationView.m */; };
 		924E1AF01CA29E4D0059BE05 /* CommonAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 924E1AEF1CA29E4D0059BE05 /* CommonAnnotation.m */; };
 		924F2A981CA3821E00A7107A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924F2A971CA3821E00A7107A /* QuartzCore.framework */; };
+		925A29D01CBE4B6D00B66CA0 /* CustomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 925A29CF1CBE4B6D00B66CA0 /* CustomeView.m */; };
+		925A29D31CBE55E300B66CA0 /* customV.m in Sources */ = {isa = PBXBuildFile; fileRef = 925A29D21CBE55E300B66CA0 /* customV.m */; };
 		925DF7EB1C9A7B43004EC482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7EA1C9A7B43004EC482 /* main.m */; };
 		925DF7EE1C9A7B43004EC482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7ED1C9A7B43004EC482 /* AppDelegate.m */; };
 		925DF7F11C9A7B43004EC482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7F01C9A7B43004EC482 /* ViewController.m */; };
@@ -661,6 +663,10 @@
 		924E1AEE1CA29E4D0059BE05 /* CommonAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonAnnotation.h; path = ../CommonAnnotation.h; sourceTree = "<group>"; };
 		924E1AEF1CA29E4D0059BE05 /* CommonAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonAnnotation.m; path = ../CommonAnnotation.m; sourceTree = "<group>"; };
 		924F2A971CA3821E00A7107A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		925A29CE1CBE4B6D00B66CA0 /* CustomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeView.h; sourceTree = "<group>"; };
+		925A29CF1CBE4B6D00B66CA0 /* CustomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeView.m; sourceTree = "<group>"; };
+		925A29D11CBE55E300B66CA0 /* customV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customV.h; sourceTree = "<group>"; };
+		925A29D21CBE55E300B66CA0 /* customV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customV.m; sourceTree = "<group>"; };
 		925DF7E61C9A7B43004EC482 /* yoParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yoParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		925DF7EA1C9A7B43004EC482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		925DF7EC1C9A7B43004EC482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1334,6 +1340,17 @@
 			path = ParkAnnoaionView;
 			sourceTree = "<group>";
 		};
+		925A29CD1CBE4B4500B66CA0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				925A29CE1CBE4B6D00B66CA0 /* CustomeView.h */,
+				925A29CF1CBE4B6D00B66CA0 /* CustomeView.m */,
+				925A29D11CBE55E300B66CA0 /* customV.h */,
+				925A29D21CBE55E300B66CA0 /* customV.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
 		925A596C1C9BED0400E323C9 /* MAMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -1485,6 +1502,7 @@
 		925DF8321C9A7E34004EC482 /* UserVC */ = {
 			isa = PBXGroup;
 			children = (
+				925A29CD1CBE4B4500B66CA0 /* V */,
 				925DF84A1C9A866E004EC482 /* UserViewController.h */,
 				925DF84B1C9A866E004EC482 /* UserViewController.m */,
 			);
@@ -2426,6 +2444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92488E311C9F9B13005F850F /* MJIvar.m in Sources */,
+				925A29D01CBE4B6D00B66CA0 /* CustomeView.m in Sources */,
 				92488E0C1C9F9AD8005F850F /* MJRefreshConst.m in Sources */,
 				924E1AEA1CA28E030059BE05 /* ZHZParkAnnoation.m in Sources */,
 				92681A5F1CA10F8A000D28E4 /* NJKWebViewProgressView.m in Sources */,
@@ -2461,6 +2480,7 @@
 				92488DF61C9F9A61005F850F /* AFURLRequestSerialization.m in Sources */,
 				926AD6741CAA443E007C9416 /* SingleShow.m in Sources */,
 				924D21FD1CA54DB5003FDAA9 /* TableViewController.m in Sources */,
+				925A29D31CBE55E300B66CA0 /* customV.m in Sources */,
 				924D21EB1CA4ED46003FDAA9 /* NavViewController.m in Sources */,
 				924E1ADE1CA262BE0059BE05 /* UserInfoViewController.m in Sources */,
 				92488DF51C9F9A61005F850F /* AFSecurityPolicy.m in Sources */,

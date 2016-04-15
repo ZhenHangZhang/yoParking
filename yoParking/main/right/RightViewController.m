@@ -7,19 +7,28 @@
 //
 
 #import "RightViewController.h"
+#import "CustomeView.h"
+#import "customV.h"
 
 @interface RightViewController ()
+
+@property (nonatomic,strong)CustomeView *v;
+@property (nonatomic,strong)customV *vvvvvvv;
+
 
 @end
 
 @implementation RightViewController
-
-- (void)viewDidLoad {
+ - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.v = [[CustomeView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 60)];
+    [self.view addSubview:self.v];
+     self.vvvvvvv = [[customV alloc]initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 300)];
+     [self.view addSubview:self.vvvvvvv];
+     
 }
-
-- (void)didReceiveMemoryWarning {
+ - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

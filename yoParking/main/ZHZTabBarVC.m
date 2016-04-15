@@ -82,16 +82,16 @@
     // 设置图标
     childVc.tabBarItem.image = [UIImage imageWithName:imageName];
     
-    // 设置tabBarItem的普通文字颜色
-//    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-//    textAttrs[UITextAttributeTextColor] = [UIColor blackColor];
-//    textAttrs[UITextAttributeFont] = [UIFont systemFontOfSize:10];
-//    [childVc.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
-//    
+//     设置tabBarItem的普通文字颜色
+    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+    textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:10];
+    [childVc.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
+//
 //    // 设置tabBarItem的选中文字颜色
-//    NSMutableDictionary *selectedTextAttrs = [NSMutableDictionary dictionary];
-//    selectedTextAttrs[UITextAttributeTextColor] = [UIColor orangeColor];
-//    [childVc.tabBarItem setTitleTextAttributes:selectedTextAttrs forState:UIControlStateSelected];
+    NSMutableDictionary *selectedTextAttrs = [NSMutableDictionary dictionary];
+    selectedTextAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    [childVc.tabBarItem setTitleTextAttributes:selectedTextAttrs forState:UIControlStateSelected];
     
     // 设置选中的图标
     UIImage *selectedImage = [UIImage imageWithName:selectedImageName];

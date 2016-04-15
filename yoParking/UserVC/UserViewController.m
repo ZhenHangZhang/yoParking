@@ -18,7 +18,7 @@
 #import "OrderViewController.h"
 #import "UserInfoViewController.h"
 #import "BackViewController.h"
-
+#import "RightViewController.h"
 
 @interface UserViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -59,15 +59,25 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.automaticallyAdjustsScrollViewInsets = YES;
+    self.automaticallyAdjustsScrollViewInsets = NO;
     defaults = [NSUserDefaults standardUserDefaults];
     UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc]initWithTitle:@"菜单" style:UIBarButtonItemStylePlain target:self action:@selector(leftView)];
     self.navigationItem.leftBarButtonItem = leftBtn;
+    
+    
+    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc]initWithTitle:@"菜单" style:UIBarButtonItemStylePlain target:self action:@selector(rightView)];
+    self.navigationItem.rightBarButtonItem = rightBtn;
+
+    
 
     [self setTableView];
     [self setheadView];
     
 }
+-(void)rightView{
+     RightViewController *vc = [[RightViewController alloc]init];
+     [self.navigationController pushViewController:vc animated:YES];
+ }
 -(void)leftView{
     AppDelegate *tempAppDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     
@@ -94,7 +104,7 @@
     
 }
 -(void)setheadView{
-    _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 150)];
+    _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,100)];
     //    _headView.backgroundColor = [UIColor clearColor];
     _tableView.tableHeaderView = _headView;
     
@@ -209,7 +219,7 @@
             break;
         case 5:
         {
-            vc = [[AboutViewController alloc]init];
+            vc = [[RightViewController alloc]init];
             title = @"关于";
         }
             break;
