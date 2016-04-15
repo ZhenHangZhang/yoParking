@@ -239,7 +239,7 @@
 		925A29D31CBE55E300B66CA0 /* customV.m in Sources */ = {isa = PBXBuildFile; fileRef = 925A29D21CBE55E300B66CA0 /* customV.m */; };
 		925DF7EB1C9A7B43004EC482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7EA1C9A7B43004EC482 /* main.m */; };
 		925DF7EE1C9A7B43004EC482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7ED1C9A7B43004EC482 /* AppDelegate.m */; };
-		925DF7F11C9A7B43004EC482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7F01C9A7B43004EC482 /* ViewController.m */; };
+		925DF7F11C9A7B43004EC482 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 925DF7F01C9A7B43004EC482 /* ViewController.mm */; };
 		925DF7F41C9A7B43004EC482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925DF7F21C9A7B43004EC482 /* Main.storyboard */; };
 		925DF7F61C9A7B43004EC482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925DF7F51C9A7B43004EC482 /* Assets.xcassets */; };
 		925DF7F91C9A7B43004EC482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925DF7F71C9A7B43004EC482 /* LaunchScreen.storyboard */; };
@@ -363,6 +363,18 @@
 		926AD6701CAA2702007C9416 /* CustomPresentAnimationCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 926AD66F1CAA2702007C9416 /* CustomPresentAnimationCotroller.m */; };
 		926AD6741CAA443E007C9416 /* SingleShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 926AD6731CAA443E007C9416 /* SingleShow.m */; };
 		926AD6781CAA56FF007C9416 /* ZHZPolylineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926AD6771CAA56FF007C9416 /* ZHZPolylineView.m */; };
+		92FBC5E61CC0EC58009C4CD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FBC5E51CC0EC58009C4CD1 /* CoreLocation.framework */; };
+		92FBC5E91CC0ECB0009C4CD1 /* class.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92FBC5E81CC0ECB0009C4CD1 /* class.bundle */; };
+		92FBC5EC1CC0ECD8009C4CD1 /* indoor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92FBC5EA1CC0ECD8009C4CD1 /* indoor.bundle */; };
+		92FBC5ED1CC0ECD8009C4CD1 /* route.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92FBC5EB1CC0ECD8009C4CD1 /* route.bundle */; };
+		92FBC5EF1CC0ECE8009C4CD1 /* libIndoorMapLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FBC5EE1CC0ECE8009C4CD1 /* libIndoorMapLib.a */; };
+		92FBC5FA1CC0ED77009C4CD1 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC5F71CC0ED77009C4CD1 /* GridView.m */; };
+		92FBC5FB1CC0ED77009C4CD1 /* InMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC5F91CC0ED77009C4CD1 /* InMapView.m */; };
+		92FBC6061CC0F13B009C4CD1 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC5FD1CC0F13B009C4CD1 /* RouteViewController.m */; };
+		92FBC6071CC0F13B009C4CD1 /* SearchIResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC5FF1CC0F13B009C4CD1 /* SearchIResultViewController.m */; };
+		92FBC6081CC0F13B009C4CD1 /* SearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC6011CC0F13B009C4CD1 /* SearchListViewController.m */; };
+		92FBC6091CC0F13B009C4CD1 /* SelectPoiMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC6031CC0F13B009C4CD1 /* SelectPoiMapViewController.m */; };
+		92FBC60A1CC0F13B009C4CD1 /* SelectPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBC6051CC0F13B009C4CD1 /* SelectPoiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -672,7 +684,7 @@
 		925DF7EC1C9A7B43004EC482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		925DF7ED1C9A7B43004EC482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		925DF7EF1C9A7B43004EC482 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		925DF7F01C9A7B43004EC482 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		925DF7F01C9A7B43004EC482 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		925DF7F31C9A7B43004EC482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		925DF7F51C9A7B43004EC482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		925DF7F81C9A7B43004EC482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -832,6 +844,30 @@
 		926AD6731CAA443E007C9416 /* SingleShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleShow.m; path = ../../../MapVC/SingleShow.m; sourceTree = "<group>"; };
 		926AD6761CAA56FF007C9416 /* ZHZPolylineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHZPolylineView.h; sourceTree = "<group>"; };
 		926AD6771CAA56FF007C9416 /* ZHZPolylineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHZPolylineView.m; sourceTree = "<group>"; };
+		92FBC5E51CC0EC58009C4CD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		92FBC5E81CC0ECB0009C4CD1 /* class.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = class.bundle; sourceTree = "<group>"; };
+		92FBC5EA1CC0ECD8009C4CD1 /* indoor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = indoor.bundle; sourceTree = "<group>"; };
+		92FBC5EB1CC0ECD8009C4CD1 /* route.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = route.bundle; sourceTree = "<group>"; };
+		92FBC5EE1CC0ECE8009C4CD1 /* libIndoorMapLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIndoorMapLib.a; sourceTree = "<group>"; };
+		92FBC5F11CC0ECEF009C4CD1 /* IndoorDataManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorDataManger.h; sourceTree = "<group>"; };
+		92FBC5F21CC0ECEF009C4CD1 /* IndoorFloorHBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorFloorHBar.h; sourceTree = "<group>"; };
+		92FBC5F31CC0ECEF009C4CD1 /* IndoorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorMapView.h; sourceTree = "<group>"; };
+		92FBC5F41CC0ECEF009C4CD1 /* IndoorRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorRouteRequest.h; sourceTree = "<group>"; };
+		92FBC5F51CC0ECEF009C4CD1 /* IndoorSearchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorSearchEngine.h; sourceTree = "<group>"; };
+		92FBC5F61CC0ED77009C4CD1 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		92FBC5F71CC0ED77009C4CD1 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		92FBC5F81CC0ED77009C4CD1 /* InMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMapView.h; sourceTree = "<group>"; };
+		92FBC5F91CC0ED77009C4CD1 /* InMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMapView.m; sourceTree = "<group>"; };
+		92FBC5FC1CC0F13B009C4CD1 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		92FBC5FD1CC0F13B009C4CD1 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		92FBC5FE1CC0F13B009C4CD1 /* SearchIResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchIResultViewController.h; sourceTree = "<group>"; };
+		92FBC5FF1CC0F13B009C4CD1 /* SearchIResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchIResultViewController.m; sourceTree = "<group>"; };
+		92FBC6001CC0F13B009C4CD1 /* SearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListViewController.h; sourceTree = "<group>"; };
+		92FBC6011CC0F13B009C4CD1 /* SearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListViewController.m; sourceTree = "<group>"; };
+		92FBC6021CC0F13B009C4CD1 /* SelectPoiMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPoiMapViewController.h; sourceTree = "<group>"; };
+		92FBC6031CC0F13B009C4CD1 /* SelectPoiMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPoiMapViewController.m; sourceTree = "<group>"; };
+		92FBC6041CC0F13B009C4CD1 /* SelectPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPoiViewController.h; sourceTree = "<group>"; };
+		92FBC6051CC0F13B009C4CD1 /* SelectPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPoiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -839,12 +875,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92FBC5E61CC0EC58009C4CD1 /* CoreLocation.framework in Frameworks */,
 				92080CFE1C9BFDA2001E149A /* CoreGraphics.framework in Frameworks */,
 				924F2A981CA3821E00A7107A /* QuartzCore.framework in Frameworks */,
 				92488E3F1C9F9D0D005F850F /* libsqlite3.0.tbd in Frameworks */,
 				92080D101C9BFF29001E149A /* libc++.tbd in Frameworks */,
 				926415A61CAB79D000C0502E /* iflyMSC.framework in Frameworks */,
 				92080D0E1C9BFF19001E149A /* libz.tbd in Frameworks */,
+				92FBC5EF1CC0ECE8009C4CD1 /* libIndoorMapLib.a in Frameworks */,
 				926415A51CAB79D000C0502E /* AMapNaviKit.framework in Frameworks */,
 				92488E3D1C9F9B50005F850F /* libWeChatSDK.a in Frameworks */,
 				92080D0C1C9BFEB8001E149A /* libstdc++.6.0.9.tbd in Frameworks */,
@@ -1376,6 +1414,7 @@
 		925DF7DD1C9A7B43004EC482 = {
 			isa = PBXGroup;
 			children = (
+				92FBC5E51CC0EC58009C4CD1 /* CoreLocation.framework */,
 				924F2A971CA3821E00A7107A /* QuartzCore.framework */,
 				92488E3E1C9F9D0D005F850F /* libsqlite3.0.tbd */,
 				925DF7E81C9A7B43004EC482 /* yoParking */,
@@ -1398,6 +1437,11 @@
 		925DF7E81C9A7B43004EC482 /* yoParking */ = {
 			isa = PBXGroup;
 			children = (
+				92FBC5F61CC0ED77009C4CD1 /* GridView.h */,
+				92FBC5F71CC0ED77009C4CD1 /* GridView.m */,
+				92FBC5F81CC0ED77009C4CD1 /* InMapView.h */,
+				92FBC5F91CC0ED77009C4CD1 /* InMapView.m */,
+				92FBC5E71CC0EC9A009C4CD1 /* 室内地图 */,
 				92488DE41C9F91F0005F850F /* Thirds */,
 				925A596C1C9BED0400E323C9 /* MAMap */,
 				925DF8321C9A7E34004EC482 /* UserVC */,
@@ -1407,7 +1451,17 @@
 				925DF7EC1C9A7B43004EC482 /* AppDelegate.h */,
 				925DF7ED1C9A7B43004EC482 /* AppDelegate.m */,
 				925DF7EF1C9A7B43004EC482 /* ViewController.h */,
-				925DF7F01C9A7B43004EC482 /* ViewController.m */,
+				925DF7F01C9A7B43004EC482 /* ViewController.mm */,
+				92FBC5FC1CC0F13B009C4CD1 /* RouteViewController.h */,
+				92FBC5FD1CC0F13B009C4CD1 /* RouteViewController.m */,
+				92FBC5FE1CC0F13B009C4CD1 /* SearchIResultViewController.h */,
+				92FBC5FF1CC0F13B009C4CD1 /* SearchIResultViewController.m */,
+				92FBC6001CC0F13B009C4CD1 /* SearchListViewController.h */,
+				92FBC6011CC0F13B009C4CD1 /* SearchListViewController.m */,
+				92FBC6021CC0F13B009C4CD1 /* SelectPoiMapViewController.h */,
+				92FBC6031CC0F13B009C4CD1 /* SelectPoiMapViewController.m */,
+				92FBC6041CC0F13B009C4CD1 /* SelectPoiViewController.h */,
+				92FBC6051CC0F13B009C4CD1 /* SelectPoiViewController.m */,
 				925DF8431C9A8221004EC482 /* PrefixHeader.pch */,
 				925DF7F21C9A7B43004EC482 /* Main.storyboard */,
 				925DF7F51C9A7B43004EC482 /* Assets.xcassets */,
@@ -2059,6 +2113,30 @@
 			path = Overlay;
 			sourceTree = "<group>";
 		};
+		92FBC5E71CC0EC9A009C4CD1 /* 室内地图 */ = {
+			isa = PBXGroup;
+			children = (
+				92FBC5F01CC0ECEF009C4CD1 /* include */,
+				92FBC5EE1CC0ECE8009C4CD1 /* libIndoorMapLib.a */,
+				92FBC5EA1CC0ECD8009C4CD1 /* indoor.bundle */,
+				92FBC5EB1CC0ECD8009C4CD1 /* route.bundle */,
+				92FBC5E81CC0ECB0009C4CD1 /* class.bundle */,
+			);
+			name = "室内地图";
+			sourceTree = "<group>";
+		};
+		92FBC5F01CC0ECEF009C4CD1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				92FBC5F11CC0ECEF009C4CD1 /* IndoorDataManger.h */,
+				92FBC5F21CC0ECEF009C4CD1 /* IndoorFloorHBar.h */,
+				92FBC5F31CC0ECEF009C4CD1 /* IndoorMapView.h */,
+				92FBC5F41CC0ECEF009C4CD1 /* IndoorRouteRequest.h */,
+				92FBC5F51CC0ECEF009C4CD1 /* IndoorSearchEngine.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2185,6 +2263,7 @@
 				925DF9091C9A8715004EC482 /* Contents.json in Resources */,
 				92488D881C9F8F6C005F850F /* check_no@3x.png in Resources */,
 				925DF9071C9A8715004EC482 /* Contents.json in Resources */,
+				92FBC5EC1CC0ECD8009C4CD1 /* indoor.bundle in Resources */,
 				925DF8D61C9A8715004EC482 /* navigationbar_background@2x.png in Resources */,
 				92488DD21C9F8F6C005F850F /* share_hl@2x.png in Resources */,
 				925DF8FE1C9A8715004EC482 /* tabbar_discover_os7@2x.png in Resources */,
@@ -2235,6 +2314,7 @@
 				92488DAE1C9F8F6C005F850F /* location_high@2x.png in Resources */,
 				92488DAA1C9F8F6C005F850F /* location_g@2x.png in Resources */,
 				92488DC11C9F8F6C005F850F /* message_n@3x.png in Resources */,
+				92FBC5ED1CC0ECD8009C4CD1 /* route.bundle in Resources */,
 				92488DDE1C9F8F6C005F850F /* user_location@2x.png in Resources */,
 				925DF8EC1C9A8715004EC482 /* popover_background_left@2x.png in Resources */,
 				92488D571C9F8F6B005F850F /* alipay@2x.png in Resources */,
@@ -2321,6 +2401,7 @@
 				92488DC31C9F8F6C005F850F /* nodata@3x.png in Resources */,
 				92488DCF1C9F8F6C005F850F /* selectCancel@3x.png in Resources */,
 				92488D961C9F8F6C005F850F /* gift_n@2x.png in Resources */,
+				92FBC5E91CC0ECB0009C4CD1 /* class.bundle in Resources */,
 				925DF8DB1C9A8715004EC482 /* Contents.json in Resources */,
 				925DF9101C9A8715004EC482 /* tabbar_message_center_selected_os7@2x.png in Resources */,
 				92488D7D1C9F8F6C005F850F /* btn_status_hl@2x.png in Resources */,
@@ -2451,6 +2532,7 @@
 				925DF8401C9A80EC004EC482 /* UIBarButtonItem+Extension.m in Sources */,
 				92681A5E1CA10F8A000D28E4 /* NJKWebViewProgress.m in Sources */,
 				92488E0E1C9F9AD8005F850F /* MJRefreshHeaderView.m in Sources */,
+				92FBC60A1CC0F13B009C4CD1 /* SelectPoiViewController.m in Sources */,
 				92488DF31C9F9A61005F850F /* AFHTTPSessionManager.m in Sources */,
 				92488DF41C9F9A61005F850F /* AFNetworkReachabilityManager.m in Sources */,
 				9231D0901CA3C3E9009BA7C6 /* BackViewController.m in Sources */,
@@ -2470,6 +2552,7 @@
 				92488E301C9F9B13005F850F /* MJFoundation.m in Sources */,
 				92681A2B1CA0DBA8000D28E4 /* ZHZTool.m in Sources */,
 				92488E361C9F9B13005F850F /* NSObject+MJCoding.m in Sources */,
+				92FBC6071CC0F13B009C4CD1 /* SearchIResultViewController.m in Sources */,
 				9231D09C1CA3CE9B009BA7C6 /* WJAdsView.m in Sources */,
 				92488E111C9F9AD8005F850F /* UIView+MJExtension.m in Sources */,
 				924E1ADA1CA25D170059BE05 /* GCD+img.m in Sources */,
@@ -2495,7 +2578,7 @@
 				92488E381C9F9B13005F850F /* NSObject+MJMember.m in Sources */,
 				92681A301CA0DF9F000D28E4 /* DownData.m in Sources */,
 				925DF9261C9A8777004EC482 /* RightViewController.m in Sources */,
-				925DF7F11C9A7B43004EC482 /* ViewController.m in Sources */,
+				925DF7F11C9A7B43004EC482 /* ViewController.mm in Sources */,
 				925DF83F1C9A80EC004EC482 /* MyControl.m in Sources */,
 				925DF7EE1C9A7B43004EC482 /* AppDelegate.m in Sources */,
 				925DF8411C9A80EC004EC482 /* UIImage+Extension.m in Sources */,
@@ -2504,15 +2587,20 @@
 				925DF7EB1C9A7B43004EC482 /* main.m in Sources */,
 				9231D09F1CA3CF92009BA7C6 /* AdViewController.m in Sources */,
 				924D21F81CA53BD7003FDAA9 /* PreferenTableViewCell.m in Sources */,
+				92FBC5FA1CC0ED77009C4CD1 /* GridView.m in Sources */,
+				92FBC6081CC0F13B009C4CD1 /* SearchListViewController.m in Sources */,
+				92FBC5FB1CC0ED77009C4CD1 /* InMapView.m in Sources */,
 				925DF8421C9A80EC004EC482 /* UIView+Extension.m in Sources */,
 				92681A681CA1488D000D28E4 /* ZHZViewController.m in Sources */,
 				92681A521CA10E7A000D28E4 /* AboutViewController.m in Sources */,
+				92FBC6091CC0F13B009C4CD1 /* SelectPoiMapViewController.m in Sources */,
 				925DF84F1C9A8690004EC482 /* MapViewController.m in Sources */,
 				925DF84C1C9A866E004EC482 /* UserViewController.m in Sources */,
 				925DF8491C9A860E004EC482 /* ZHZOneViewController.m in Sources */,
 				9231D0961CA3C487009BA7C6 /* PlaceholderTextView.m in Sources */,
 				925DF9231C9A8767004EC482 /* LeftViewController.m in Sources */,
 				925DF8301C9A7D79004EC482 /* ZHZTabBar.m in Sources */,
+				92FBC6061CC0F13B009C4CD1 /* RouteViewController.m in Sources */,
 				92488E351C9F9B13005F850F /* MJTypeEncoding.m in Sources */,
 				92488E5E1C9FF0C3005F850F /* RegisViewController.m in Sources */,
 				92488E0B1C9F9AD8005F850F /* MJRefreshBaseView.m in Sources */,
@@ -2678,6 +2766,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/yoParking/Thirds/WX",
+					"$(PROJECT_DIR)/yoParking",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xbk.yoParking;
@@ -2705,6 +2794,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/yoParking/Thirds/WX",
+					"$(PROJECT_DIR)/yoParking",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xbk.yoParking;

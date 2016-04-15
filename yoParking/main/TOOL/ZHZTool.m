@@ -177,6 +177,7 @@
     CGContextRelease(bitmapRef);
     
     CGImageRelease(bitmapImage);
+    
     return [UIImage imageWithCGImage:scaledImage];
 }
 

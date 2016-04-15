@@ -70,10 +70,7 @@
     
     /**设置文字属性**/
     // 设置普通状态的文字属性
-    
- 
-    
-    NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
     textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:15];
 //    textAttrs[NSBaselineOffsetAttributeName] = [NSValue valueWithUIOffset:UIOffsetZero];
@@ -91,7 +88,7 @@
     
     /**设置背景**/
     // 技巧: 为了让某个按钮的背景消失, 可以设置一张完全透明的背景图片
-//    [appearance setBackgroundImage:[UIImage imageWithName:@"navigationbar_button_background"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+//  [appearance setBackgroundImage:[UIImage imageWithName:@"navigationbar_button_background"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
 }
   /**
  *  能拦截所有push进来的子控制器

@@ -9,7 +9,7 @@
 #import "RightViewController.h"
 #import "CustomeView.h"
 #import "customV.h"
-
+#import "ViewController.h"
 @interface RightViewController ()
 
 @property (nonatomic,strong)CustomeView *v;
@@ -32,7 +32,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
+    ViewController* vc = [[ViewController alloc] init];
+    vc.spoiid = @"B000A856LJ";
+    vc.name = @"朝阳大悦城";
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    
+}
 /*
 #pragma mark - Navigation
 

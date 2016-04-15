@@ -75,6 +75,7 @@
     
 }
 -(void)rightView{
+    
      RightViewController *vc = [[RightViewController alloc]init];
      [self.navigationController pushViewController:vc animated:YES];
  }
@@ -178,6 +179,14 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+    [self rightView];
+    return;
+    
+    
+    
+    
     AppDelegate *apdele = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [apdele.LeftSlideVC closeLeftView];//关闭左侧抽屉
     UIViewController *vc = nil;
